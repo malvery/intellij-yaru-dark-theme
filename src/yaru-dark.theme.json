@@ -1,0 +1,38 @@
+{
+  "name": "Yaru Dark",
+  "dark": true,
+  "author": "Anton Zavyalov",
+  "editorScheme": "/yaru-dark.xml",
+  "colors": {
+    "windowBackground": "#3E3E3E",
+    "basicBackground": "#343434",
+    "basicForeground": "#F4F4F3",
+    "selectionBackground": "#DF4A16",
+    "selectionInactiveBackground": "#161616",
+    "borderColor": "#5A5A5A"
+  },
+  "ui": {
+    "*": {
+      "background": "basicBackground",
+      "foreground": "basicForeground",
+      "selectionBackground": "selectionBackground",
+      "selectionForeground": "basicForeground",
+      "selectionInactiveBackground": "selectionInactiveBackground",
+      "selectionInactiveForeground": "basicForeground",
+      "underlineColor": "selectionBackground",
+      "borderColor": "borderColor",
+      "disabledBorderColor": "borderColor"
+    },
+    "EditorTabs": {
+      "underlineHeight": 3,
+      "background": "windowBackground"
+    },
+    "CheckBox.background": "windowBackground",
+    "RadioButton.background": "windowBackground",
+    "Button.background": "windowBackground",
+    "Button.arc": 0,
+    "CompletionPopup.selectionBackground": "selectionInactiveBackground",
+    "Menu.background": "windowBackground",
+    "Panel.background": "windowBackground"
+  }
+}

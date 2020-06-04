@@ -1,0 +1,34 @@
+<idea-plugin>
+  <id>com.malvery.yaruDarkTheme</id>
+  <name>Yaru Dark theme</name>
+  <version>0.1</version>
+  <vendor email="fort.malvery@gmail.com" url="">Anton Zavyalov</vendor>
+
+  <!--suppress PluginXmlValidity -->
+  <description><![CDATA[
+    Yaru Dark theme
+    ]]></description>
+
+  <!--suppress PluginXmlValidity -->
+  <change-notes><![CDATA[
+    Initial release
+    ]]>
+  </change-notes>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="1f334b1c-401a-4fc4-9c36-1b34673d948a" path="/yaru-dark.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
