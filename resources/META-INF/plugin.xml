@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.malvery.yaruDarkTheme</id>
   <name>Yaru Dark theme</name>
-  <version>0.1</version>
+  <version>0.2</version>
   <vendor email="fort.malvery@gmail.com" url="">Anton Zavyalov</vendor>
 
   <!--suppress PluginXmlValidity -->
